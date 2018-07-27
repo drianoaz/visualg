@@ -1,4 +1,4 @@
-# <a name="introducao-a-logica-de-programacao">Introdução à Lógica de Programação</a>
+# Introdução à Lógica de Programação
 
 ## <a name="indice">Índice</a>
 
