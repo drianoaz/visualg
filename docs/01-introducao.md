@@ -2,16 +2,16 @@
 
 ## <a name="indice">Índice</a>
 
-- [Introdução a Lógica de Programação](./docs/01-introducao.md#introducao-a-logica-de-programacao)
-  - [Para que serve a Lógica de Programação?](./docs/01-introducao.md#para-que-serve-a-logica-de-programacao)
-  - [Conceituando algoritmos](./docs/01-introducao.md#conceituando-algoritmos)
-    - [Problemas e soluções](./docs/01-introducao.md#problemas-e-solucoes)
-    - [Como construir algoritmos](./docs/01-introducao.md#como-construir-algoritmos)
-    - [Desenvolvendo algoritmos](./docs/01-introducao.md#desenvolvendo-algoritmos)
-      - [Descrição Narrativa](./docs/01-introducao.md#descricao-narrativa)
-      - [Fluxograma](./docs/01-introducao.md#fluxograma)
-      - [Pseudocódigo](./docs/01-introducao.md#pseudocodigo)
-  - [Exercícios](./docs/01-introducao.md#exercicios)
+- [Introdução a Lógica de Programação](#introducao-a-logica-de-programacao)
+  - [Para que serve a Lógica de Programação?](#para-que-serve-a-logica-de-programacao)
+  - [Conceituando algoritmos](#conceituando-algoritmos)
+    - [Problemas e soluções](#problemas-e-solucoes)
+    - [Como construir algoritmos](#como-construir-algoritmos)
+    - [Desenvolvendo algoritmos](#desenvolvendo-algoritmos)
+      - [Descrição Narrativa](#descricao-narrativa)
+      - [Fluxograma](#fluxograma)
+      - [Pseudocódigo](#pseudocodigo)
+  - [Exercícios](#exercicios)
 
 ## <a name="para-que-serve-a-logica-de-programacao">1. Para que serve a Lógica de Programação?</a>
 
