@@ -167,7 +167,31 @@ seguimos uma receita culinária.
 Outro conceito importante que precisamos compreender é o de programa de computador.
 Um programa nada mais é que uma sequência de instruções codificada em uma linguagem
 que pode ser entendida por um computador. É a representação de um algoritmo em
-uma linguagem de programação (C, Java, JavaScript etc.)
+uma linguagem de programação.
+
+Para se criar os programas usamos as linguagens de programação, elas funcionam
+como um intermediário entre o usuário e a máquina. Imaginem como se o usuário
+fosse um arquiteto brasileiro construindo uma casa e que só fala português e
+estivesse tentando falar para um funcionário o que ele tem de fazer para a casa
+ficar pronta, só que seu funcionário só fala alemão, então o tradutor que pega
+tudo o que o arquiteto quer em português e traduz para o funcionário em alemão
+é o que chamamos de linguagem de programação.
+
+Existem diversas linguagens de programação no mundo, vou colocar em seguida algumas
+delas, umas novas outras não tão recentes assim:
+
+- JavaScript :heart:
+- PHP
+- Java
+- C, C++, C#
+- Swift
+- Kotlin
+- Go
+- Python
+- Cobol
+- Fortran
+- Pascal
+- Ruby
 
 **[voltar ao topo](#indice)**
 
