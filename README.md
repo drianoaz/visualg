@@ -33,9 +33,15 @@ o fascinante mundo da programação, baseando-se nos conteúdos apresentados e n
     - Pseudocódigo
   - Exercícios
 
+## Links úteis
+
+- [Canal do Slack](https://drianoaz.slack.com/)
+- [Grupo do Telegram](https://t.me/grupodrianoaz)
+- [Don't pad](http://dontpad.com/drianoaz/aula)
+
 ## Autores
 
-- **Adriano de Azevedo** - _Trabalho inicial_ - [@drianoaz](https://twitter.com/drianoaz)
+- **Adriano de Azevedo** - _Trabalho inicial_ - [GitHub](https://github.com/drianoaz) - [Twitter](https://twitter.com/drianoaz) - [Facebook](https://www.facebook.com/drianoaz)
 
 Veja também a lista de [contribuidores](https://github.com/drianoaz/visualg/contributors) que participaram deste projeto.
 
