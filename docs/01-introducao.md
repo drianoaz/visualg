@@ -290,8 +290,39 @@ Para melhor compreensão, fluxograma abaixo representa o algoritmo de somar doi
 
 #### <a name="pseudocodigo">2.3.3. Pseudocódigo</a>
 
-CRIAR DESCRIÇÃO DO PSEUDOCÓDIGO, REVISAR ORTOGRAFIA, ACRESCENTAR LINKS DE NAVEGAÇÃO
-ADICIONAR IMAGENS, ACRESCENTAR LINKS IMPORTANTES NO README
+Outro tipo de algoritmo é o pseudocódigo, conhecido também como portugol ou português
+estruturado, que consiste em representar o problema por meio de regras pré-definidas.
+É uma linguagem intermediária entre a nossa linguagem e a linguagem de programação.
+
+Neste curso utilizaremos o pseudocódigo VisuAlg, pois usa o português para escrever
+nossos programas, pode ser executada em um computador, e é simples de ser representada,
+utilizada, manipulada e entendida.
+
+Abaixo temos um exemplo de um código escrito usando opseudocódigo VisuAlg, não se preocupe
+caso não entenda tudo ou nada do exemplo pois vai será explicado melhor no decorrer desta curso.
+
+```
+Algoritmo "SomarNumeros"
+   Var numero1, numero2, soma : inteiro
+
+Inicio
+
+   // Recebe o primeiro número
+   Escreva("Digite o primeiro número: ")
+   Leia(numero1)
+
+   // Recebe o segundo número
+   Escreva("Digite o segundo número: ")
+   Leia(numero2)
+
+   // Realiza o calculo
+   soma <- numero1 + numero2
+
+   // Exibe resultado
+   Escreva("A soma dos números ", numero1, " e ", numero2, " é: ", soma)
+
+FimAlgoritmo
+```
 
 **[voltar ao topo](#indice)**
 
