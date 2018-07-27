@@ -1,6 +1,19 @@
-# Introdução à Lógica de Programação
+# <a name="introducao-a-logica-de-programacao">Introdução à Lógica de Programação</a>
 
-## 1. Para que serve a Lógica de Programação?
+## <a name="indice">Índice</a>
+
+- [Introdução a Lógica de Programação](./docs/01-introducao.md#introducao-a-logica-de-programacao)
+  - [Para que serve a Lógica de Programação?](./docs/01-introducao.md#para-que-serve-a-logica-de-programacao)
+  - [Conceituando algoritmos](./docs/01-introducao.md#conceituando-algoritmos)
+    - [Problemas e soluções](./docs/01-introducao.md#problemas-e-solucoes)
+    - [Como construir algoritmos](./docs/01-introducao.md#como-construir-algoritmos)
+    - [Desenvolvendo algoritmos](./docs/01-introducao.md#desenvolvendo-algoritmos)
+      - [Descrição Narrativa](./docs/01-introducao.md#descricao-narrativa)
+      - [Fluxograma](./docs/01-introducao.md#fluxograma)
+      - [Pseudocódigo](./docs/01-introducao.md#pseudocodigo)
+  - [Exercícios](./docs/01-introducao.md#exercicios)
+
+## <a name="para-que-serve-a-logica-de-programacao">1. Para que serve a Lógica de Programação?</a>
 
 A programação permite instruir o computador para que ele realize as tarefas
 que desejamos, como por exemplo: controlar o estoque de uma empresa, simular
@@ -23,7 +36,9 @@ exercícios adequadamente, o seu raciocínio estará preparado para criar qua
 tipo de programa, quando posteriormente aprender uma linguagem de programação
 específica para computação.
 
-## 2. Conceituando algoritmos
+**[voltar ao topo](#indice)**
+
+## <a name="conceituando-algoritmos">2. Conceituando algoritmos</a>
 
 Um algoritmo consiste em uma sequência finita de passos (instruções) para solucionar
 um problema. Podemos ter vários algoritmos que resolvem um mesmo problema, desta forma
@@ -43,7 +58,9 @@ problemas os quais demandam por uma solução. E um algoritmo nada mais é do
 um conjunto de passos que resolvem um determinado problema. Isto quer dizer
 já conhecemos diversos algoritmos.
 
-### 2.1. Problemas e soluções
+**[voltar ao topo](#indice)**
+
+### <a name="problemas-e-solucoes">2.1. Problemas e soluções</a>
 
 Vamos supor que temos que pregar um prego em um pedaço de madeira. Para realizar
 esta tarefa teremos que segurar o prego sobre a madeira e bater com o martelo
@@ -152,7 +169,9 @@ Um programa nada mais é que uma sequência de instruções codificada em um
 que pode ser entendida por um computador. É a representação de um algoritmo em
 uma linguagem de programação (C, Java, JavaScript etc.)
 
-### 2.2. Como construir algoritmos
+**[voltar ao topo](#indice)**
+
+### <a name="como-construir-algoritmos">2.2. Como construir algoritmos</a>
 
 Sabemos que a construção de algoritmos requer prática, porém devemos seguir uma
 linha de raciocínio para sua concepção:
@@ -171,12 +190,16 @@ A separação do problema em **Entrada** (Que dados devemos obter do usuário
 **Processamento** (Que cálculos devemos efetuar?) e **Saída** (Que informações
 devemos fornecer ao usuário?) nos auxilia no processo de construção do raciocínio lógico.
 
-### 2.3. Desenvolvendo algoritmos
+**[voltar ao topo](#indice)**
+
+### <a name="desenvolvendo-algoritmos">2.3. Desenvolvendo algoritmos</a>
 
 Existem basicamente 3 formas de se desenvolver um algoritmo que são:
 Descrição Narrativa, Fluxograma e Pseudocódigo.
 
-#### 2.3.1. Descrição Narrativa
+**[voltar ao topo](#indice)**
+
+#### <a name="descricao-narrativa">2.3.1. Descrição Narrativa</a>
 
 A descrição narrativa consiste na representação do problema por meio da linguagem natural,
 descrevendo os passos que devem ser seguidos para a resolução de um problema.
@@ -215,7 +238,9 @@ usuário a ler o texto faz com que demore mais para entender as etapas do proce
 relacionamento entre as etapas, enquanto nos outros modelos esta informação é passada de uma
 maneira mais visual e consequentemente mais rápida.
 
-#### 2.3.2. Fluxograma
+**[voltar ao topo](#indice)**
+
+#### <a name="fluxograma">2.3.2. Fluxograma</a>
 
 Usa símbolos universais que nos ajudarão a entender o que o algoritmo que dizer. O bom deles
 é que por ser um padrão universal, fluxogramas escritos por programadores brasileiros poder
@@ -233,16 +258,20 @@ criação de seus programas.
 
 !["Fluxograma"](../files/img/figuras-do-fluxograma.png)
 
-Para melhor compreensão, fluxograma abaixo representa o algorítmo de somar dois números.
+Para melhor compreensão, fluxograma abaixo representa o algoritmo de somar dois números.
 
 !["Fluxograma"](../files/img/exemplo-fluxograma.png)
 
-#### 2.3.3. Pseudocódigo
+**[voltar ao topo](#indice)**
+
+#### <a name="pseudocodigo">2.3.3. Pseudocódigo</a>
 
 CRIAR DESCRIÇÃO DO PSEUDOCÓDIGO, REVISAR ORTOGRAFIA, ACRESCENTAR LINKS DE NAVEGAÇÃO
 ADICIONAR IMAGENS, ACRESCENTAR LINKS IMPORTANTES NO README
 
-## Exercícios
+**[voltar ao topo](#indice)**
+
+## <a name="exercicios">Exercícios</a>
 
 1.  Descreva quais os passos e separe-os em entrada, processamento e saída para:
 
@@ -258,3 +287,5 @@ ADICIONAR IMAGENS, ACRESCENTAR LINKS IMPORTANTES NO README
 3.  Faça uma descrição narrativa de escovar seus dentes, atravessar uma rua e acessar um site.
 
 4.  Faça o mesmo do exercício 3, mas agora utilize fluxogramas.
+
+**[voltar ao topo](#indice)**
