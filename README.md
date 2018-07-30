@@ -32,6 +32,21 @@ o fascinante mundo da programação, baseando-se nos conteúdos apresentados e n
       - [Fluxograma](./docs/01-introducao.md#fluxograma)
       - [Pseudocódigo](./docs/01-introducao.md#pseudocodigo)
   - [Exercícios](./docs/01-introducao.md#exercicios)
+- [Construindo os primeiros algoritmos](./docs/02-construindo-os-primeiros-algoritmos.md#construindo-os-primeiros-algoritmos)
+	- [Estudando variáveis](./docs/02-construindo-os-primeiros-algoritmos.md#estudando-variaveis)
+		- [Por que declarar variáveis e como nomeá-las?](./docs/02-construindo-os-primeiros-algoritmos.md#por-que-declarar-variaveis-e-como-nomea-las)
+		- [O que são tipos de variáveis?](./docs/02-construindo-os-primeiros-algoritmos.md#o-que-sao-tipos-de-variaveis)
+	- [Constantes](./docs/02-construindo-os-primeiros-algoritmos.md#constantes)
+	- [Comandos de atribuição, entrada e saída de dados](./docs/02-construindo-os-primeiros-algoritmos.md#comandos-de-atribuicao-entrada-e-saida-de-dados)
+		- [Comandos de Atribuição](./docs/02-construindo-os-primeiros-algoritmos.md#comandos-de-atribuicao)
+		- [Comando de Entrada de Dados](./docs/02-construindo-os-primeiros-algoritmos.md#comando-de-entrada-de-dados)
+		- [Comando de Saída de Dados](./docs/02-construindo-os-primeiros-algoritmos.md#comando-de-saida-de-dados)
+	- [Expressões](./docs/02-construindo-os-primeiros-algoritmos.md#expressoes)
+		- [Operadores aritméticos](./docs/02-construindo-os-primeiros-algoritmos.md#operadores-aritimeticos)
+		- [Operadores Relacionais](./docs/02-construindo-os-primeiros-algoritmos.md#operadores-relacionais)
+		- [Operadores Lógicos](./docs/02-construindo-os-primeiros-algoritmos.md#operadores-logicos)
+		- [Expressões Lógicas](./docs/02-construindo-os-primeiros-algoritmos.md#expressoes-logicas)
+	- [Exercícios](./docs/02-construindo-os-primeiros-algoritmos.md#exercicios)
 
 ## Links úteis
 
