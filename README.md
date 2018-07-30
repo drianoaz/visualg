@@ -35,6 +35,7 @@ o fascinante mundo da programação, baseando-se nos conteúdos apresentados e n
 
 ## Links úteis
 
+- [Aqui você vai encontrar artigos e um monte de coisa legal](./extra/links.md)
 - [Canal do Slack](https://drianoaz.slack.com/)
 - [Join on Slack](https://join.slack.com/t/drianoaz/shared_invite/enQtNDAwNTIwNzMxMDk1LTliZGM1OWE3YzhhOThjNDIwODNkM2M4Y2VmZWRiNTJmODFhMTE5OWVkYWQ3ZDZhMzY3NGM1YjFkMGE3ZTQ3NDg)
 - [Grupo do Telegram](https://t.me/grupodrianoaz)
