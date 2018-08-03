@@ -47,6 +47,14 @@ o fascinante mundo da programação, baseando-se nos conteúdos apresentados e n
 		- [Operadores Lógicos](./docs/02-construindo-os-primeiros-algoritmos.md#operadores-logicos)
 		- [Expressões Lógicas](./docs/02-construindo-os-primeiros-algoritmos.md#expressoes-logicas)
 	- [Exercícios](./docs/02-construindo-os-primeiros-algoritmos.md#exercicios)
+- [Avançando](./docs/03-avancando.md#avancando)
+  - [Funções intrínsecas](./docs/03-avancando.md#funcoes-intrinsecas)
+  - [Estrutura condicional](./docs/03-avancando.md#estrutura-condicional)
+    - [Estrutura condicional simples](./docs/03-avancando.md#estrutura-condicional-simples)
+    - [Estrutura condicional composta](./docs/03-avancando.md#estrutura-condicional-composta)
+    - [Estrutura condicional aninhada](./docs/03-avancando.md#estrutura-condicional-aninhada)
+  - [Exercícios](./docs/03-avancando.md#exercicios)
+  - [Desafio](./docs/03-avancando.md#desafio)
 
 ## Links úteis
 
