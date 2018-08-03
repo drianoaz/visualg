@@ -41,6 +41,8 @@ que se trata de um conjunto de caracteres.
 Em um algoritmo o conteúdo de uma variável pode ser modificado, consultado ou apagado quantas
 vezes forem necessárias, porém é importante ter ciência de que a variável armazena apenas um conteúdo por vez.
 
+**[voltar ao topo](#indice)**
+
 ### <a name="por-que-declarar-variaveis-e-como-nomea-las">Por que declarar variáveis e como nomeá-las?</a>
 
 Sempre que criamos uma variável, nós o fazemos com o objetivo de armazenar algum tipo de
@@ -81,6 +83,8 @@ Ao declarar variáveis devemos tomar alguns cuidados: a palavra `Var` é usada
 definição de variáveis; mais de uma variável do mesmo tipo pode ser definida em uma mesma
 linha, basta separar cada uma delas por vírgula; e, se há diferentes tipos de variáveis,
 cada tipo deve ser declarado em linhas diferentes.
+
+**[voltar ao topo](#indice)**
 
 ### <a name="o-que-sao-tipos-de-variaveis">O que são tipos de variáveis?</a>
 
@@ -132,6 +136,8 @@ Uma variável pode ser de um dos seguintes tipos:
     ocupado: logico
   ```
 
+**[voltar ao topo](#indice)**
+
 ## <a name="constantes">Constantes</a>
 
 Como aprendemos, o valor de uma variável pode ser alterado ao longo de seu algoritmo. Mas, às
@@ -156,7 +162,11 @@ Const
   TAXA_FGTS = 0.08;
 ```
 
+**[voltar ao topo](#indice)**
+
 ## <a name="comandos-de-atribuicao-entrada-e-saida-de-dados">Comandos de atribuição, entrada e saída de dados</a>
+
+**[voltar ao topo](#indice)**
 
 ### <a name="comandos-de-atribuicao">Comandos de Atribuição</a>
 
@@ -186,6 +196,8 @@ valor tem que ser compatível com a variável.
 A leitura das instruções acima é realizada do seguinte modo: a variável nota recebe o valor 10,
 a variável sexo recebe o valor "F".
 
+**[voltar ao topo](#indice)**
+
 ### <a name="comando-de-entrada-de-dados">Comando de Entrada de Dados</a>
 
 Frequentemente, na construção de algoritmos, precisamos solicitar que usuários informem, por
@@ -202,6 +214,8 @@ A sintaxe do comando é:
 ```
 Leia(variavel)
 ```
+
+**[voltar ao topo](#indice)**
 
 ### <a name="comando-de-saida-de-dados">Comando de Saída de Dados</a>
 
@@ -223,11 +237,15 @@ Escreva("A idade é:", idade)
 Escreva(n1, "x", n2, "é igual a", produto)
 ```
 
+**[voltar ao topo](#indice)**
+
 ## <a name="expressoes">Expressões</a>
 
 As expressões estão diretamente relacionadas ao conceito de fórmula matemática, em que um
 conjunto de variáveis e constantes relaciona-se por meio de operadores. As expressões dividem-se em:
  aritméticas, relacional, lógicas e literais.
+
+**[voltar ao topo](#indice)**
 
 ### <a name="operadores-aritimeticos">Operadores aritméticos</a>
 
@@ -301,6 +319,8 @@ Linha 16    - O comando escreva exibirá uma mensagem com o resultado da multip
 Linha 17    - Indica o fim do programa.
 ```
 
+**[voltar ao topo](#indice)**
+
 ### <a name="operadores-relacionais">Operadores Relacionais</a>
 
 Os operadores relacionais são utilizados para realizar comparações entre dois valores
@@ -317,6 +337,8 @@ Na tabela abaixo temos exemplos de relações e seus resultados. Para tais exe
 variáveis inteiras, A e B onde A=5 e B=8:
 
 ![Operadores](../files/img/operadores-relacionais-2.png)
+
+**[voltar ao topo](#indice)**
 
 ### <a name="operadores-logicos">Operadores Lógicos</a>
 
@@ -346,6 +368,8 @@ utilizaremos (OU, E e NÃO) para duas proposições (ou expressões) P e Q.
 
 ![Operadores](../files/img/operadores-logicos-5.png)
 
+**[voltar ao topo](#indice)**
+
 ### <a name="expressoes-logicas">Expressões Lógicas</a>
 
 As expressões lógicas são expressões formadas a partir do uso de variáveis e constantes,
@@ -358,6 +382,8 @@ sempre um valor lógico: verdadeiro ou falso.
   (x < y) e (y < z)
   (y + z < x) ou (x>10) e (y < 5)
 ```
+
+**[voltar ao topo](#indice)**
 
 ## <a name="exercicios">Exercícios</a>
 
@@ -393,3 +419,4 @@ solicitar ao usuário a distância a ser percorrida em Km, o consumo do carro 
 o preço do litro do combustível. Como resposta o programa deverá informar qual o valor em
 R$ a ser gasto com combustível na viagem.
 
+**[voltar ao topo](#indice)**

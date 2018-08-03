@@ -18,6 +18,8 @@ utilizar em nossos algoritmos.
 
 ![Funções](../files/img/funcoes.png)
 
+**[voltar ao topo](#indice)**
+
 ## <a name="estrutura-condicional">Estrutura condicional</a>
 
 Até o momento, os nossos algoritmos apresentavam um padrão em que a
@@ -44,9 +46,12 @@ que permite executar um ou mais comandos se a condição testada for
 verdadeira ou executar um ou mais comandos se for falsa. Essa estrutura
 divide-se em estrutura simples e estrutura composta, as quais veremos a seguir.
 
+**[voltar ao topo](#indice)**
+
 ### <a name="estrutura-condicional-simples">Estrutura condicional simples</a>
 
-Na estrutura condicional simples o comando só será executado se a condição for verdadeira. A sintaxe do comando é:
+Na estrutura condicional simples o comando só será executado se a condição
+ for verdadeira. A sintaxe do comando é:
 
 ```
 se (<Condição>) entao
@@ -57,12 +62,17 @@ fimse
 A estrutura condicional simples tem por finalidade tomar uma decisão. De
 modo que se a condição que está sendo testada for verdadeira são
 executadas todas as instruções compreendidas entre o `se` e o `fimse`.
-Ao término da execução o algoritmo segue o primeiro comando após o `fimse`. Se a condição que está sendo testada for falsa o algoritmo
+Ao término da execução o algoritmo segue o primeiro comando após o `fimse`.
+Se a condição que está sendo testada for falsa o algoritmo
 executa a primeira instrução após o `fimse`, não executando as
 instruções compreendidas entre o `se` e o `fimse`.
 
-Vamos analisar o algoritmo apresentado abaixo. Consideremos o valor de `A` como `15`, desta forma ao testar a condição dada pela expressão `A > 10`, retorna um valor verdadeiro. Com isto, temos a execução do
-comando escreva que está compreendido entre o `se` e o `fimse`. Agora, tomemos `A` com valor `3`. Ao testar a condição `A > 10` o valor retornado é falso. Deste modo, não é executada a instrução entre o `se` e o `fimse`.
+Vamos analisar o algoritmo apresentado abaixo. Consideremos o valor de `A`
+como `15`, desta forma ao testar a condição dada pela expressão `A > 10`,
+retorna um valor verdadeiro. Com isto, temos a execução do
+comando escreva que está compreendido entre o `se` e o `fimse`. Agora, tomemos
+ `A` com valor `3`. Ao testar a condição `A > 10` o valor retornado é falso.
+ Deste modo, não é executada a instrução entre o `se` e o `fimse`.
 
 ```
 Algoritmo "exemplo"
@@ -83,7 +93,8 @@ A condição é uma expressão lógica, portanto ao ser testada devolve
 como resposta o valor verdadeiro ou falso. Uma condição pode ser
 representada por uma expressão relacional ou por uma expresão lógica
 formada por pelo menos duas expressões relacionais. Os operadores
-relacionais vistos na anteriormente são `>, <, =, >=, <= e <>`. Já os operadores lógicos são `E, OU e NAO`.
+relacionais vistos na anteriormente são `>, <, =, >=, <= e <>`. Já os
+operadores lógicos são `E, OU e NAO`.
 
 Agora fica mais clara a aplicação dos operadores relacionais e como
 eles são utilizados em nossos algoritmos. Alguns exemplos de expressão
@@ -99,8 +110,11 @@ Resposta <> "Sim"
 Quando nossa condição é uma expressão lógica temos pelo menos duas
 expressões relacionais que estão ligadas por um operador lógico. Você
 se recorda do funcionamento dos operadores lógicos? O operador `E`
-resulta em verdadeiro somente quando as duas condições são verdadeiras. O operador `OU` resulta em verdadeiro quando pelo menos uma
-das condições é verdadeira. E o operador `NAO` funciona como a negação do resultado, ou seja, inverte o resultado lógico. Vamos ver exemplos de expressão lógica:
+resulta em verdadeiro somente quando as duas condições são verdadeiras.
+O operador `OU` resulta em verdadeiro quando pelo menos uma
+das condições é verdadeira. E o operador `NAO` funciona como a negação
+do resultado, ou seja, inverte o resultado lógico. Vamos ver exemplos
+de expressão lógica:
 
 ```
 (X >= 1) E (X <=20)
@@ -108,7 +122,8 @@ das condições é verdadeira. E o operador `NAO` funciona como a negação
 NAO (X>5)
 ```
 
-Note que as expressões lógicas são compostas utilizando operadores relacionais e lógicos.
+Note que as expressões lógicas são compostas utilizando operadores
+relacionais e lógicos.
 
 Agora que conhecemos a sintaxe da estrutura condicional simples e sabemos
 como montar condições, vamos formular nosso primeiro algoritmo contendo
@@ -120,13 +135,15 @@ par e então imprimir a metade do número.
 O que é um número par? Um número par é um número inteiro múltiplo
 de 2, ou seja, um número cuja divisão por 2 resulte em resto igual a 0.
 
-A entrada de dados consiste em obter um número inteiro, o qual denominaremos de N. O processamento consiste em encontrar o resto da
-divisão deste número por 2 e verificar se é igual a zero. Como faremos isso? Você se recorda de alguma função que faz isso? Acima vimos o
+A entrada de dados consiste em obter um número inteiro, o qual
+denominaremos de N. O processamento consiste em encontrar o resto da
+divisão deste número por 2 e verificar se é igual a zero. Como faremos
+isso? Você se recorda de alguma função que faz isso? Acima vimos o
 operador MOD, que retorna o resto da divisão de dois números inteiros.
 
-Se o resto for igual a zero calcularemos a metade deste número. E a saída consistirá em imprimir a metade do número. Se o resto for diferente de zero não será executada nenhuma instrução e também não
-haverá saída.
-
+Se o resto for igual a zero calcularemos a metade deste número. E a saída
+consistirá em imprimir a metade do número. Se o resto for diferente de zero
+não será executada nenhuma instrução e também não haverá saída.
 
 ```
 Algoritmo "exemplo2"
@@ -158,10 +175,15 @@ tipos de variáveis, atribuição, comando de entrada e saída de dados),
 agregando a estrutura condicional.
 
 Em relação ao algoritmo apresentado, podemos colocar uma instrução
-`escreva` após o `fimse` dizendo que o número é ímpar? Não, pois para qualquer número obtido na entrada, indiferente de ser par ou ímpar,a mensagem seria impressa. Devemos lembrar que após o `fimse` o fluxo do
+`escreva` após o `fimse` dizendo que o número é ímpar? Não, pois para
+qualquer número obtido na entrada, indiferente de ser par ou ímpar,
+a mensagem seria impressa. Devemos lembrar que após o `fimse` o fluxo do
 algoritmo segue normalmente, sendo executada instrução a instrução.
 
-Por que a variável `metade` foi declarada como `real`?  Se a instrução que calcula a metade fosse executada fora da estrutura condicional a variável deve  ser do tipo `real`. Por exemplo, se o número 3 fosse obtido na entrada a metade seria 1.5, que não é um número inteiro.
+Por que a variável `metade` foi declarada como `real`?  Se a instrução
+que calcula a metade fosse executada fora da estrutura condicional a
+variável deve  ser do tipo `real`. Por exemplo, se o número 3 fosse
+ obtido na entrada a metade seria 1.5, que não é um número inteiro.
 
 Precisamos dessa variável denominada metade? E a variável resto? Não,
 podemos realizar o teste lógico a partir da expressão relacional, não
@@ -189,11 +211,15 @@ Inicio
 Fimalgoritmo
 ```
 
+**[voltar ao topo](#indice)**
+
 ### <a name="estrutura-condicional-composta">Estrutura condicional composta</a>
 
 Na estrutura condicional composta é realizada a avaliação de uma
 única expressão lógica. Se o resultado desta avaliação for
-verdadeiro é executado a instrução ou o conjunto de instruções compreendido entre o comando `se` e o `senao`. Se o resultado da avaliação for falso é executado a instrução ou o conjunto de instru- ções entre o `senao` e o `fimse`.
+verdadeiro é executado a instrução ou o conjunto de instruções compreendido
+entre o comando `se` e o `senao`. Se o resultado da avaliação for falso é
+executado a instrução ou o conjunto de instru- ções entre o `senao` e o `fimse`.
 
 ```
 se (<Condição>) entao
@@ -230,8 +256,12 @@ Fimalgoritmo
 ```
 
 Se o resultado do teste da expressão relacional `n mod 2 = 0` for
-verdadeiro é executada a instrução que se encontra entre o `se` o `senao`, ou seja, escreva "o número é par". Caso o resultado do teste
-seja falso é executada a instrução que se encontra em o `senão` e o `fimse`, escreve "O número é ímpar". Por exemplo, se o número obtido na entrada for 5 temos que `5 mod 2 é igual a 1`, ou seja, o teste da expressão resulta em falso, logo será impresso que "O número é ímpar".
+verdadeiro é executada a instrução que se encontra entre o `se` o `senao`,
+ ou seja, escreva "o número é par". Caso o resultado do teste
+seja falso é executada a instrução que se encontra em o `senão` e o `fimse`,
+ escreve "O número é ímpar". Por exemplo, se o número obtido na entrada for
+ 5 temos que `5 mod 2 é igual a 1`, ou seja, o teste da expressão resulta em
+  falso, logo será impresso que "O número é ímpar".
 
 Antes de conhecer outros tipos de estrutura condicional vamos praticar
 mais a construção de algoritmos utilizando expressões lógicas. O
@@ -256,9 +286,12 @@ Inicio
 Fimalgoritmo
 ```
 
+**[voltar ao topo](#indice)**
+
 ### <a name="estrutura-condicional-aninhada">Estrutura condicional aninhada</a>
 
-Vamos conhecer a estrutura condicional aninhada ou encadeada. Essa estrutura é utilizada quando precisamos estabelecer a verificação de
+Vamos conhecer a estrutura condicional aninhada ou encadeada. Essa estrutura
+é utilizada quando precisamos estabelecer a verificação de
 condições sucessivas, em que uma determinada ação poderá ser
 executada se um conjunto anterior de instruções ou condições for
 satisfeito. A execução da ação pode, também, estabelecer novas
@@ -267,7 +300,8 @@ dentro de outra, ou seja, a estrutura pode possuir diversos níveis de
 condição. Essa estrutura é utilizada quando sentimos a necessidade de
 tomar decisões dentro de uma das alternativas de uma condição.
 
-Vamos visualizar a estrutura condicional aninhada em um problema que consiste em encontrar o maior número dentre três números.
+Vamos visualizar a estrutura condicional aninhada em um problema que consiste
+ em encontrar o maior número dentre três números.
 
 **Objetivo do algoritmo:** encontrar o maior número.
 
@@ -335,9 +369,12 @@ estrutura condicional, representada pelos trechos 3 e 4. A estrutura
 condicional do trecho 3 só é executada se A > B resultar em verdadeiro.
 Em seguida, é verificado se `A > C`, em caso verdadeiro é executada a
 instrução em que é atribuído o valor de A para a variável `max`.
-Se `A > C` for avaliado como falso é executada a instrução em que o valor de C é atribu-́do para a variável `max`.
+Se `A > C` for avaliado como falso é executada a instrução em que o valor
+de C é atribu-́do para a variável `max`.
 
 ![Funções](../files/img/estrutura-condicional-composta.png)
+
+**[voltar ao topo](#indice)**
 
 ## <a name="exercicios">Exercícios</a>
 
@@ -347,7 +384,8 @@ total de vendas é inferior a R$ 1500,00 o percentual de comissão é 2%
 e se for maior o percentual é de 4%. Apresente o nome do vendedor,
 matrícula, salário fixo e salário total.
 
-1. Formule um algoritmo que receba dois números e mostre os seguintes resultados para o usuário:
+1. Formule um algoritmo que receba dois números e mostre os seguintes
+resultados para o usuário:
 
     - A soma do primeiro pelo segundo
     - A subtração do primeiro pelo segundo
@@ -407,7 +445,10 @@ a pessoa está abaixo do peso (IMC menor que 20), normal (IMC entre 20 e
 25), com exces- so de peso (IMC entre 26 e 30), obesa (IMC entre 31 e 35)
 ou com obesidade mórbida (acima de 35). O cálculo do IMC é dado por: peso dividido pela altura ao quadrado.
 
+**[voltar ao topo](#indice)**
 
 ## <a name="desafio">Desafio</a>
 
 ![Funções](../files/img/desafio-1.png)
+
+**[voltar ao topo](#indice)**
