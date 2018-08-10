@@ -55,6 +55,11 @@ o fascinante mundo da programação, baseando-se nos conteúdos apresentados e n
     - [Estrutura condicional aninhada](./docs/03-avancando.md#estrutura-condicional-aninhada)
   - [Exercícios](./docs/03-avancando.md#exercicios)
   - [Desafio](./docs/03-avancando.md#desafio)
+- [Estruturas de repetição](./docs/04-estruturas-de-repeticao.md#estruturas-de-repeticao)
+	- [Estrutura para](./docs/04-estruturas-de-repeticao.md#estrutura-para)
+	- [Estrutura enquanto](./docs/04-estruturas-de-repeticao.md#estrutura-enquanto)
+	- [Estrutura repita](./docs/04-estruturas-de-repeticao.md#estrutura-repita)
+	- [Exercícios](./docs/04-estruturas-de-repeticao.md#exercicios)
 
 ## Links úteis
 
